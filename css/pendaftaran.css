@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; 
+    min-height: 100vh; 
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.navigasi {
+    display: flex;
+    background-color: #c6b9a9;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.ling {
+    position: absolute;
+    right: 10px;
+}
+.ling a {
+    color: whitesmoke;
+}
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+.navbar li {
+    padding: 5px 14px;
+    border-radius: 5px;
+    background-color: #ff8739;
+    transition: background-color 0.3s ease;
+}
+.navbar li:hover {
+    background-color: #fe312b;
+    border-radius: 5px;
+}
+.dropdown {
+    display: none;
+    background-color: #ff8739;
+    position: absolute;
+    top: 40px;
+    padding: 1em 0;
+    right: 45%;
+    border-radius: 8%;
+}
+.dropdown li {
+    width: 10em;
+    align-items: center;
+}
+.anggota:hover .dropdown {
+    display: block;
+}
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background: url('../image/maxver.jpg');
+    background-position: center;
+    background-size: cover;
+}
+  body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 300px;
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    background-color: #ff8739;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #fe312b;
+}
+footer {
+    background-color: #1b2103;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    position: absolute;
+    bottom: 0; 
+}
